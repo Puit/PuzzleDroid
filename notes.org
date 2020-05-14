@@ -1,0 +1,30 @@
+1) Create first View: menu to choose an image
+splashScreen1: onCreate
+MainActivity: OnCreate
+
+2) Show all the images so the user can choose one
+ImageController: ImageController
+
+2.1) Then these two functions get called multiple times, interspersed
+
+ImageController: getView
+ImageController: getImageFromAssets
+
+3) Create the puzzle and all the pieces
+
+PuzzleController: onCreate
+PuzzleController: setImageFromAssets
+PuzzleController: cutImage
+PuzzleController: getPositionInImage
+PieceController: PierceController
+PieceController: PierceController
+
+4) This function is called each time a piece is inserted in the right
+   position. It checks if the puzzle is ended.
+
+PuzzleController: checkEnd
+
+5) This function is called when the last piece is inserted, it adds
+   the score to the database and finishes the puzzle view.
+
+PuzzleController: onFinishPuzzle

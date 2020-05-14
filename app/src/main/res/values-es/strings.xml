@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PuzzleDroid</string>
+    <string name="seconds">segundos</string>
+    <string name="date">Fecha</string>
+    <string name="score">Puntuación</string>
+    <!-- Buttons -->
+    <string name="gallery">Galería</string>
+    <string name="random">Aleatorio</string>
+    <string name="camera">Cámara</string>
+    <string name="user_scores">Resultados usuario</string>
+    <string name="reset_scores">Limpiar resultados</string>
+    <string name="reset_scores_null">Todavía no hay resultados</string>
+    <!-- Notifications -->
+    <string name="not_title">Nueva puntuación</string>
+    <string name="not_subtitle">Tu nueva puntuación ha sido de:</string>
+    <string name="not_show_not">Ver puntuación</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Primer fragmento</string>
+    <string name="second_fragment_label">Segundo fragmento</string>
+    <string name="next">Siguiente</string>
+    <string name="previous">Anterior</string>
+
+    <string name="hello_first_fragment">Hola primer fragmento</string>
+    <string name="hello_second_fragment">Hola segundo fragmento. Arg: %1$s</string>
+    <string name="title_activity_b_o_r_r_a_r">BORRAR</string>
+
+</resources>
